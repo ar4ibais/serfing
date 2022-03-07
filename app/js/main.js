@@ -155,5 +155,6 @@ $('.menu-btn').on('click', function() {
   $('.menu').toggleClass('active');
 });
 
+new WOW().init();
 
 });
