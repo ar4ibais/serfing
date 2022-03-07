@@ -240,9 +240,11 @@
 }
 
 .surf-box {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  &__wrapper {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
   &__inner {
     min-height: 750px;
     background: rgba(#1C2121, .85);
@@ -331,6 +333,7 @@
   }
   .slick-list {
     min-height: 635px;
+    overflow: visible;
   }
 }
 
@@ -509,6 +512,7 @@
     margin-top: -230px;
     background-repeat: no-repeat;
     background-position: right center;
+    background-size: contain;
     min-height: 230px;
     margin-bottom: 77px;
     .descr__head {
